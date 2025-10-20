@@ -1,0 +1,22 @@
+class Animal {
+    speak() {
+        console.log("Animal make a sound");
+    }
+}
+
+class Dog extends Animal {
+    // overiding
+    speak() {
+        console.log("Dog sound like Guk Guk");
+    }
+}
+
+class Cat extends Animal {
+    // overiding
+    speak() {
+        console.log("Cat sound like make meow");
+    }
+}
+
+const dog = new Dog();
+dog.speak();
